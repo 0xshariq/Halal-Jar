@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90vw;
+  height: 90vh;
+}
+.container .emotions {
+  color: #372a15;
+  background-color: #d4c3aacc;
+  max-width: 80vw;
+  max-height: 50vw;
+}
+.container .emotions .emotion-btn {
+  cursor: pointer;
+  width: 20%;
+  height: auto;
+  margin: 1.5rem;
+  padding: 0.7rem;
+  background-color: #d4c3aacc;
+  border: none;
+  outline: none;
+}
+.container .emotions .emotion-btn:hover{
+    background-color: #d5b990;
+}
+h1{
+    background-color: #d5b990;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.container .emotions p{
+    color: white:
+}
